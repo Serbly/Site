@@ -1185,7 +1185,7 @@ span.orange{
     }
     .page1 nav.phone .top{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 800px;
         margin-top: 50px;
     }
@@ -1233,5 +1233,8 @@ span.orange{
     }
     .Order{
         font-size: 28px;
+    }
+    .page1 .right-part{
+        margin-top: 50px;
     }
 }
