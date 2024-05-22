@@ -1186,7 +1186,7 @@ span.orange{
     .page1 nav.phone .top{
         display: flex;
         justify-content: space-between;
-        width: 800px;
+        width: 600px;
         margin-top: 50px;
     }
     .page1 nav.phone img{
