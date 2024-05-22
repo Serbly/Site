@@ -1182,6 +1182,7 @@ span.orange{
         align-items: center;
         margin: 0;
         width: 1320px;
+        margin-left: 130px;
     }
     .page1 nav.phone .top{
         display: flex;
@@ -1219,6 +1220,7 @@ span.orange{
         height: auto;
         margin-top: 50px;
         margin-left: 100px;
+        background-image: none;
     }
     .page1 .text img {
         top: 89px;
