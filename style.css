@@ -1235,10 +1235,12 @@ span.orange{
     }
     .page1 .right-part{
         margin-top: 50px;
+        margin-left: 50px;
     }
     .videopage{
         height: 820px;
         margin-left: 100px;
+        margin-top: 100px;
     }
     .videopage header{
         flex-direction: column;
@@ -1255,5 +1257,12 @@ span.orange{
         text-align: center;
         width: 1200px;
         height: auto;
+    }
+    .page3{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .page3 .back{
+        display: none;
     }
 }
