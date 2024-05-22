@@ -84,32 +84,25 @@ html{
     display: flex;
     flex-direction: column;
     height: 900px;
-    width: 1920px;
+    width: 100%;
     background-image: url(images/BG.png);
 }
-.main{
-    width: 100%;
-    height: 100%;
-}
-.header{
-    width: 1320px;
-    height: 50px;
-    margin-top: 30px;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-nav{
+.page1 nav.PC{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    height: 100%;
+    width: 1320px;
+    margin-top: 30px;
+    margin-left: 300px;
 }
-nav img{
+.page1 nav.phone{
+    display: none;
+}
+.page1 nav img{
     width: 207px;
     height: 40px;
     margin-top: 5px;
 }
-nav ul{
+.page1 nav ul{
     display: flex;
     width: 790px;
     height: 21px;
@@ -117,7 +110,7 @@ nav ul{
     margin-top: 14.5px;
     justify-content: space-between;
 }
-nav ul li{
+.page1 nav ul li{
     list-style: none;
     font-family: "DM Sans", sans-serif;
     font-size: 16px;
@@ -125,14 +118,16 @@ nav ul li{
     line-height: 20.83px;
     text-align: left;
 }
-nav ul li a{
+.page1 nav ul li a{
     text-decoration: none;
     color: #434A54;
 }
-nav ul li a:hover{
+.page1 nav ul li a:hover{
     color: #4568F9;
 }
-.Get-started-btn{
+.page1 .Get-started-btn{
+    width: 104px;
+    height: 24px;
     padding: 13.5px 25.5px;
     border: 1px solid #4568F9;
     border-radius: 10px;
@@ -142,15 +137,11 @@ nav ul li a:hover{
     font-family: "DM Sans", sans-serif;
     color: #4568F9;
 }
-.Get-started-btn:hover{
+.page1 .Get-started-btn:hover{
     background: #4568F9;
     color: aliceblue;
     transition: all 0.3s;
 }
-
-
-
-
 .page1 .main-content{
     display: flex;
     margin-top: 84px;
@@ -161,7 +152,6 @@ nav ul li a:hover{
     width: 1086px;
     height: 695px;
 }
-
 .page1 .text{
     width: 645px;
     height: 533px;
@@ -462,10 +452,6 @@ span.orange{
     margin-top: 139px;
     margin-left: 300px;
 }
-.page4 .main-content{
-    display: flex;
-    justify-content: space-between;
-}
 .page4 .text{
     width: 540px;
     height: 429px;
@@ -630,15 +616,10 @@ span.orange{
 
 
 .page6{
-    width: 1920px;
-    height: 510.8px;
-    background-image: url(images/BG3.png);
-}
-.page6 .main-content{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    height: 100%;
+    height: 510.8px;
+    background-image: url(images/BG3.png);
 }
 .food{
     width: 401.11px;
@@ -646,13 +627,13 @@ span.orange{
     margin-left: 381px;
     margin-top: 55px;
 }
-.page6 .main-content .text{
+.page6 .text{
     width: 600px;
     height: 256px;
     margin-right: 380px;
     margin-top: 130px;
 }
-.page6 .main-content .text h1{
+.page6 .text h1{
     font-family: "DM Sans", sans-serif;
     font-size: 45px;
     font-weight: 400;
@@ -663,11 +644,11 @@ span.orange{
     width: 550px;
     height: 110px;
 }
-.page6 .main-content .text h1 .blue{
+.page6 .text h1 .blue{
     font-size: 45px;
     line-height: 55px;
 }
-.page6 .main-content .text p.orange{
+.page6 .text p.orange{
     font-family: "Nunito sans", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -677,7 +658,7 @@ span.orange{
     width: 592px;
     height: 32px;
 }
-.page6 .main-content .text p{
+.page6 .text p{
     font-family: "Nunito sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -1184,4 +1165,73 @@ span.orange{
     justify-content: space-between;
     width: 306px;
     height: 23px;
+}
+
+
+
+
+
+@media (max-width: 385px) {
+    .page1 nav.PC{
+        display: none;
+    }
+    .page1 nav.phone{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        width: 1320px;
+    }
+    .page1 nav.phone .top{
+        display: flex;
+        justify-content: space-around;
+        width: 800px;
+        margin-top: 50px;
+    }
+    .page1 nav.phone img{
+        width: 300px;
+        height: 58px;
+    }
+    .page1 .Get-started-btn{
+       padding: 24.5px 45.5px;
+       width: 150px;
+       font-size: 26px;
+    }
+    .page1 nav.phone ul{
+        width: 1043px;
+        margin-top: 25px;
+    }
+    .page1 nav.phone ul li{
+        font-size: 30px;
+    }
+    .page1 .main-content {
+        margin: 0;
+    }
+    .page1 .text{
+        position: relative;
+        padding: 0;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    .page1 .left-part{
+        width: auto;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .page1 .text img {
+        top: 89px;
+        left: 253px;
+    }
+    .page1 .text p {
+        font-size: 30px;
+    }
+    .page1 .text ul li {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .Order{
+        font-size: 28px;
+    }
 }
