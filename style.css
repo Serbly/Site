@@ -1546,6 +1546,9 @@ span.orange {
     width: 100%;
     height: auto;
   }
+  .page10 .text a{
+    margin-top: 20px;
+  }
   .page10 .videos{
     flex-direction: column;
     height: auto;
@@ -1568,5 +1571,46 @@ span.orange {
   .page10 .videos .play1 {
     top: 207px;
     left: 315px;
+  }
+  .page11{
+    width: 385px;
+    height: auto;
+  }
+  .page11 header .main-content{
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .page11 header .main-content .text{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+  .page11 header .main-content .text p{
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  .page11 header .main-content .email form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .page11 header .main-content .email{
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  .page11 header .main-content .email .input-text{
+    margin: 0;
+    margin-left: 30px;
+    height: 50px;
+  }
+  .page11 header .main-content .email .input-btn{
+    margin: 0;
+  }
+  .page11 header .main-content .email .input-btn{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
   }
 }
