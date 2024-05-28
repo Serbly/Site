@@ -1579,6 +1579,7 @@ span.orange {
   }
   .page11 header{
     height: auto;
+    padding: 0 5px;
     padding-bottom: 50px;
   }
   .page11 header .main-content{
@@ -1618,6 +1619,9 @@ span.orange {
   .page11 header .main-content .email .input-btn{
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+  }
+  .page11 footer{
+    padding: 0 5px;
   }
   .page11 footer .text{
     width: 100%;
