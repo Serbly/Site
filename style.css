@@ -1158,7 +1158,7 @@ span.orange {
   body{
     width: 385px;
   }
-  .page{
+  .page:not(.page11){
     margin-left: 0;
     padding: 0 5px;
   }
