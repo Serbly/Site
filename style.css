@@ -1160,6 +1160,7 @@ span.orange {
   }
   .page{
     margin-left: 0;
+    padding: 0 5px;
   }
   .page1{
     height: auto;
